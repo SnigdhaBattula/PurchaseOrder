@@ -9,33 +9,33 @@ define("DS/PurchaseOrder/scripts/PurchaseOrder", [], function () {
                     <form id="Bulk Wholesale Purchase Order">
                         
                         <div style="display: flex; justify-content: left; gap: 5px;">
-                            <label><b>Today's Date: </b></label>
+                            <label for= "MM"><b>Today's Date: </b></label>
                             <input type="text" placeholder="MM" style="width: 50px;" required>
                             <input type="text" placeholder="DD" style="width: 50px;" required>
                             <input type="text" placeholder="YYYY" style="width: 80px;" required>
                         </div>
                         <div style="display: flex; justify-content: left; gap: 5px;">
-                            <label><b>E-mail: </b></label>
+                            <label for= "E-mail"><b>E-mail: </b></label>
                             <input type="text" placeholder="E-mail" style="width: 90%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px;" required>
                         </div>
                         <div style="display: flex; justify-content: left; gap: 5px;">
-                            <label><b>Full Name: </b></label>
+                            <label for="Full Name"><b>Full Name: </b></label>
                             <input type="email" placeholder="Full Name" style="width: 90%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px;" required>
                         </div>
                         <div style="display: flex; justify-content: left; gap: 5px;">
-                            <label><b>Country Code: </b></label>
+                            <label for= "Phone Number"><b>Country Code: </b></label>
                             <input type="tel" placeholder="Code" style="width: 10%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px;" required>
                             <input type="tel" placeholder="Phone Number" style="width: 80%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px;" required>
                         </div>
                         <div style="display: flex; justify-content: center; gap: 5px;">
-                            <label><b>Item Name: </b></label>
+                            <label for="Item Name"><b>Item Name: </b></label>
                             <input type="text" placeholder="Item Name" style="width: 90%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px;">
                         </div>
-                            <label><b>Quantity: </b></label>
+                            <label for="Quantity"><b>Quantity: </b></label>
                         <input type="text" placeholder="Quantity" style="width: 90%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px;">
-                        <label><b>Item Style: </b></label>
+                        <labe for="Item"l><b>Item Style: </b></label>
                         <input type="text" placeholder="Item" style="width: 90%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px;">
-                        <label><b>Queries: </b></label>
+                        <label for="Type your message here"><b>Queries: </b></label>
                         <textarea placeholder="Type your message here" style="width: 90%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px;"></textarea>
                         <button type="submit" style="background-color:rgb(7, 59, 46); color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">Submit</button>
                     </form>

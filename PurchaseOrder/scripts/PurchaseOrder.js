@@ -4,7 +4,7 @@ define("DS/PurchaseOrder/scripts/PurchaseOrder", [], function () {
     var myWidget = {
         onLoad: function () {
             var formHTML = `
-                <div class='main-Container' id='mainContainer' style="width: 400px; padding: 20px; background:rgb(120, 182, 158); border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); text-align: center;">
+                <div class='main-Container' id='mainContainer' style="width: 600px; padding: 20px; background:rgb(120, 182, 158); border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); text-align: center;">
                     <h2 style="color:rgb(5, 27, 22);">Bulk Wholesale Purchase Order</h2>
                     <form id="Bulk Wholesale Purchase Order">
                         

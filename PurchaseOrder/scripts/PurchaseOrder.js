@@ -7,8 +7,9 @@ define("DS/PurchaseOrder/scripts/PurchaseOrder", [], function () {
                 <div class='main-Container' id='mainContainer' style="width: 400px; padding: 20px; background:rgb(120, 182, 158); border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); text-align: center;">
                     <h2 style="color:rgb(5, 27, 22);">Bulk Wholesale Purchase Order</h2>
                     <form id="Bulk Wholesale Purchase Order">
-                        <label><b>Today's Date: </b></label>
+                        
                         <div style="display: flex; justify-content: left; gap: 5px;">
+                            <label><b>Today's Date: </b></label>
                             <input type="text" placeholder="MM" style="width: 50px;" required>
                             <input type="text" placeholder="DD" style="width: 50px;" required>
                             <input type="text" placeholder="YYYY" style="width: 80px;" required>
@@ -26,7 +27,7 @@ define("DS/PurchaseOrder/scripts/PurchaseOrder", [], function () {
                             <input type="tel" placeholder="Code" style="width: 10%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px;" required>
                             <input type="tel" placeholder="Phone Number" style="width: 80%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px;" required>
                         </div>
-                        <div style="display: flex; justify-content: left; gap: 5px;">
+                        <div style="display: flex; justify-content: center; gap: 5px;">
                             <label><b>Item Name: </b></label>
                             <input type="text" placeholder="Item Name" style="width: 90%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px;">
                         </div>
